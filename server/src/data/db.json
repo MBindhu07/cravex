@@ -1,0 +1,2149 @@
+{
+  "users": [
+    {
+      "_id": "1f293bb8-3ad9-4597-8f34-7ee62406d5ce",
+      "name": "Aarav Sharma",
+      "email": "customer@cravex.com",
+      "password": "$2a$10$rYH7/UozBFv.lFy/fYdJkuL2oD8Ymj/480LCsXoy2dGsEeKVHfs9K",
+      "role": "customer",
+      "phone": "+91 98765 43210",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=200&auto=format&fit=crop&q=80",
+      "addresses": [
+        {
+          "id": "addr-1",
+          "title": "Home",
+          "addressLine": "Flat 402, Sunshine Residency, 100ft Road",
+          "landmark": "Opposite Metro Pillar 182",
+          "city": "Bengaluru",
+          "postalCode": "560038",
+          "lat": 12.9716,
+          "lng": 77.5946,
+          "isDefault": true
+        },
+        {
+          "id": "addr-2",
+          "title": "Office",
+          "addressLine": "WeWork Galaxy, 43 Residency Road",
+          "landmark": "Near Brigade Road junction",
+          "city": "Bengaluru",
+          "postalCode": "560025",
+          "lat": 12.9702,
+          "lng": 77.6099,
+          "isDefault": false
+        }
+      ],
+      "loyaltyPoints": 340,
+      "isActive": true,
+      "createdAt": "2026-11-03T15:52:41.129Z",
+      "updatedAt": "2026-11-03T15:52:41.130Z"
+    },
+    {
+      "_id": "9e8a8164-ef4f-42ff-a304-e40865e5f8e9",
+      "name": "Chef Marco Rossi",
+      "email": "owner@cravex.com",
+      "password": "$2a$10$rYH7/UozBFv.lFy/fYdJkuL2oD8Ymj/480LCsXoy2dGsEeKVHfs9K",
+      "role": "restaurant",
+      "phone": "+91 98111 22334",
+      "avatar": "https://images.unsplash.com/photo-1577219491135-ce391730fb2c?w=200&auto=format&fit=crop&q=80",
+      "isActive": true,
+      "createdAt": "2026-11-03T15:52:41.130Z",
+      "updatedAt": "2026-11-03T15:52:41.130Z"
+    },
+    {
+      "_id": "b37ee088-12c2-4110-b5e3-55561194287b",
+      "name": "Vikram Singh",
+      "email": "delivery@cravex.com",
+      "password": "$2a$10$rYH7/UozBFv.lFy/fYdJkuL2oD8Ymj/480LCsXoy2dGsEeKVHfs9K",
+      "role": "delivery",
+      "phone": "+91 98222 33445",
+      "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=200&auto=format&fit=crop&q=80",
+      "vehicleType": "Electric Scooter (Ather 450X)",
+      "isOnline": true,
+      "rating": 4.9,
+      "isActive": true,
+      "createdAt": "2026-11-03T15:52:41.130Z",
+      "updatedAt": "2026-11-03T15:52:41.130Z"
+    },
+    {
+      "_id": "d0852e1d-53d2-485b-973c-bc9a7971130e",
+      "name": "CraveX Super Admin",
+      "email": "admin@cravex.com",
+      "password": "$2a$10$rYH7/UozBFv.lFy/fYdJkuL2oD8Ymj/480LCsXoy2dGsEeKVHfs9K",
+      "role": "admin",
+      "phone": "+91 99999 88888",
+      "avatar": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=200&auto=format&fit=crop&q=80",
+      "isActive": true,
+      "createdAt": "2026-11-03T15:52:41.130Z",
+      "updatedAt": "2026-11-03T15:52:41.130Z"
+    }
+  ],
+  "restaurants": [
+    {
+      "_id": "rest-1",
+      "name": "Gustoso Sourdough Pizza Co.",
+      "tagline": "Artisanal Neapolitan Wood-Fired Pizzas",
+      "description": "Handcrafted 48-hour fermented sourdough crusts, San Marzano tomato sauce, and genuine fior di latte mozzarella.",
+      "logo": "https://images.unsplash.com/photo-1590846406792-0adc7f938f1d?w=120&auto=format&fit=crop&q=80",
+      "coverImage": "https://images.unsplash.com/photo-1513104890138-7c749659a591?w=1000&auto=format&fit=crop&q=80",
+      "cuisineTypes": [
+        "Italian",
+        "Gourmet Pizzas",
+        "Desserts"
+      ],
+      "rating": 4.8,
+      "reviewsCount": 1420,
+      "deliveryEstimate": 30,
+      "deliveryFee": 35,
+      "minOrder": 250,
+      "specialOffers": "20% OFF up to ₹100 | Code: CRAVEFEST",
+      "openingHours": "11:00 AM - 11:30 PM",
+      "contactPhone": "+91 80 4123 9988",
+      "address": "12th Main, HAL 2nd Stage, Indiranagar, Bengaluru",
+      "coordinates": {
+        "lat": 12.9719,
+        "lng": 77.6412
+      },
+      "status": "approved",
+      "ownerId": "9e8a8164-ef4f-42ff-a304-e40865e5f8e9",
+      "isVegOnly": false,
+      "popularBadge": true,
+      "bestsellerBadge": true,
+      "totalOrders": 1840,
+      "createdAt": "2026-11-03T15:52:41.133Z",
+      "updatedAt": "2026-11-03T15:52:41.133Z"
+    },
+    {
+      "_id": "rest-2",
+      "name": "Behrouz Dum Biryani",
+      "tagline": "The Secret Royal Biryani Recipe",
+      "description": "Slow-cooked in sealed clay handis with long-grain basmati, saffron, cardamom, and succulent spiced cuts.",
+      "logo": "https://images.unsplash.com/photo-1589302168068-964664d93dc0?w=120&auto=format&fit=crop&q=80",
+      "coverImage": "https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?w=1000&auto=format&fit=crop&q=80",
+      "cuisineTypes": [
+        "Indian",
+        "Biryani & Bowls",
+        "Mughlai"
+      ],
+      "rating": 4.9,
+      "reviewsCount": 2850,
+      "deliveryEstimate": 35,
+      "deliveryFee": 40,
+      "minOrder": 300,
+      "specialOffers": "Free Gulab Jamun on orders above ₹499",
+      "openingHours": "10:30 AM - 01:00 AM",
+      "contactPhone": "+91 80 4987 1122",
+      "address": "4th Block, 100 Feet Road, Koramangala, Bengaluru",
+      "coordinates": {
+        "lat": 12.9352,
+        "lng": 77.6245
+      },
+      "status": "approved",
+      "isVegOnly": false,
+      "popularBadge": true,
+      "bestsellerBadge": true,
+      "totalOrders": 3200,
+      "createdAt": "2026-11-03T15:52:41.133Z",
+      "updatedAt": "2026-11-03T15:52:41.133Z"
+    },
+    {
+      "_id": "rest-3",
+      "name": "Smash & Stack Burger Lab",
+      "tagline": "Crispy Edges, Juicy Centers",
+      "description": "Double smashed tender patties, cheddar cascade, house secret sauce in toasted golden brioche buns.",
+      "logo": "https://images.unsplash.com/photo-1550547660-d9450f859349?w=120&auto=format&fit=crop&q=80",
+      "coverImage": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=1000&auto=format&fit=crop&q=80",
+      "cuisineTypes": [
+        "American Burgers",
+        "Fast Food",
+        "Shakes"
+      ],
+      "rating": 4.7,
+      "reviewsCount": 980,
+      "deliveryEstimate": 25,
+      "deliveryFee": 30,
+      "minOrder": 200,
+      "specialOffers": "Buy 1 Get 1 on Monster Shakes",
+      "openingHours": "12:00 PM - 02:00 AM",
+      "contactPhone": "+91 80 2552 4433",
+      "address": "Church Street, Off MG Road, Bengaluru",
+      "coordinates": {
+        "lat": 12.9754,
+        "lng": 77.6067
+      },
+      "status": "approved",
+      "isVegOnly": false,
+      "popularBadge": true,
+      "bestsellerBadge": false,
+      "totalOrders": 1450,
+      "createdAt": "2026-11-03T15:52:41.133Z",
+      "updatedAt": "2026-11-03T15:52:41.133Z"
+    },
+    {
+      "_id": "rest-4",
+      "name": "Green Sanctuary Pure Veg & Vegan",
+      "tagline": "100% Organic, Sattvic & Vegan Delicacies",
+      "description": "Farm-to-table plant-powered gourmet kitchen serving dairy-free, gluten-free, and Jain-friendly delights.",
+      "logo": "https://images.unsplash.com/photo-1540420773420-3366772f4999?w=120&auto=format&fit=crop&q=80",
+      "coverImage": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=1000&auto=format&fit=crop&q=80",
+      "cuisineTypes": [
+        "Healthy & Green",
+        "Pure Veg",
+        "Vegan",
+        "Jain"
+      ],
+      "rating": 4.9,
+      "reviewsCount": 1120,
+      "deliveryEstimate": 28,
+      "deliveryFee": 25,
+      "minOrder": 200,
+      "specialOffers": "Flat 15% OFF for healthy eaters",
+      "openingHours": "08:00 AM - 10:30 PM",
+      "contactPhone": "+91 80 4321 0000",
+      "address": "Lavelle Road, Shanthala Nagar, Bengaluru",
+      "coordinates": {
+        "lat": 12.9698,
+        "lng": 77.5983
+      },
+      "status": "approved",
+      "isVegOnly": true,
+      "popularBadge": true,
+      "bestsellerBadge": false,
+      "totalOrders": 890,
+      "createdAt": "2026-11-03T15:52:41.133Z",
+      "updatedAt": "2026-11-03T15:52:41.133Z"
+    },
+    {
+      "_id": "rest-5",
+      "name": "Dimsum Wok & Asian Express",
+      "tagline": "Wok-Tossed Street Flavors & Steaming Dimsums",
+      "description": "Authentic Cantonese crystal dumplings, spicy Dan Dan noodles, and Tokyo shoyu ramen bowls.",
+      "logo": "https://images.unsplash.com/photo-1569718212165-3a8278d5f624?w=120&auto=format&fit=crop&q=80",
+      "coverImage": "https://images.unsplash.com/photo-1541696432-82c6da8ce7bf?w=1000&auto=format&fit=crop&q=80",
+      "cuisineTypes": [
+        "Pan-Asian & Dimsums",
+        "Chinese",
+        "Ramen"
+      ],
+      "rating": 4.6,
+      "reviewsCount": 760,
+      "deliveryEstimate": 32,
+      "deliveryFee": 35,
+      "minOrder": 250,
+      "specialOffers": "Complimentary Kimchi with every meal",
+      "openingHours": "12:00 PM - 11:00 PM",
+      "contactPhone": "+91 80 4111 7766",
+      "address": "Brigade Gateway, Malleshwaram, Bengaluru",
+      "coordinates": {
+        "lat": 13.0118,
+        "lng": 77.5552
+      },
+      "status": "approved",
+      "isVegOnly": false,
+      "popularBadge": false,
+      "bestsellerBadge": false,
+      "totalOrders": 920,
+      "createdAt": "2026-11-03T15:52:41.133Z",
+      "updatedAt": "2026-11-03T15:52:41.133Z"
+    },
+    {
+      "_id": "rest-6",
+      "name": "Taqueria El Fuego",
+      "tagline": "Vibrant Flavors from Oaxaca & Baja California",
+      "description": "Hand-pressed soft corn tortillas, slow-braised barbacoa, smoked chipotle crema, and churros con cajeta.",
+      "logo": "https://images.unsplash.com/photo-1565299585323-38d6b0865b47?w=120&auto=format&fit=crop&q=80",
+      "coverImage": "https://images.unsplash.com/photo-1551504734-5ee1c4a1479b?w=1000&auto=format&fit=crop&q=80",
+      "cuisineTypes": [
+        "Tacos & Mexican",
+        "Burritos",
+        "Spicy"
+      ],
+      "rating": 4.7,
+      "reviewsCount": 640,
+      "deliveryEstimate": 35,
+      "deliveryFee": 30,
+      "minOrder": 200,
+      "specialOffers": "Taco Tuesday: Buy 2 Get 1 Free",
+      "openingHours": "12:30 PM - 11:30 PM",
+      "contactPhone": "+91 80 4777 8899",
+      "address": "Sony World Junction, Koramangala 6th Block, Bengaluru",
+      "coordinates": {
+        "lat": 12.9348,
+        "lng": 77.6212
+      },
+      "status": "approved",
+      "isVegOnly": false,
+      "popularBadge": false,
+      "bestsellerBadge": false,
+      "totalOrders": 780,
+      "createdAt": "2026-11-03T15:52:41.133Z",
+      "updatedAt": "2026-11-03T15:52:41.133Z"
+    },
+    {
+      "_id": "rest-7",
+      "name": "The Belgian Waffle & Chocolate Atelier",
+      "tagline": "Crispy Warm Waffles & Decadent Bakes",
+      "description": "Freshly baked Liege and Brussels style waffles smothered in melted Belgian milk, dark, and ruby chocolate.",
+      "logo": "https://images.unsplash.com/photo-1562376552-0d160a2f238d?w=120&auto=format&fit=crop&q=80",
+      "coverImage": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=1000&auto=format&fit=crop&q=80",
+      "cuisineTypes": [
+        "Desserts & Bakes",
+        "Waffles",
+        "Ice Cream"
+      ],
+      "rating": 4.8,
+      "reviewsCount": 1650,
+      "deliveryEstimate": 22,
+      "deliveryFee": 25,
+      "minOrder": 150,
+      "specialOffers": "Flat ₹50 OFF on orders above ₹299",
+      "openingHours": "10:00 AM - 02:00 AM",
+      "contactPhone": "+91 80 4222 3311",
+      "address": "CMH Road, Indiranagar, Bengaluru",
+      "coordinates": {
+        "lat": 12.9784,
+        "lng": 77.6432
+      },
+      "status": "approved",
+      "isVegOnly": true,
+      "popularBadge": true,
+      "bestsellerBadge": true,
+      "totalOrders": 2100,
+      "createdAt": "2026-11-03T15:52:41.133Z",
+      "updatedAt": "2026-11-03T15:52:41.133Z"
+    },
+    {
+      "_id": "rest-8",
+      "name": "Kyoto Sushi & Robata Grill",
+      "tagline": "Master Crafted Nigiri, Maki & Sashimi",
+      "description": "Sustainably sourced salmon, bluefin tuna, pickled ginger, and freshly grated wasabi by master chefs.",
+      "logo": "https://images.unsplash.com/photo-1579871494447-9811cf80d66c?w=120&auto=format&fit=crop&q=80",
+      "coverImage": "https://images.unsplash.com/photo-1579871494447-9811cf80d66c?w=1000&auto=format&fit=crop&q=80",
+      "cuisineTypes": [
+        "Japanese",
+        "Sushi",
+        "Asian"
+      ],
+      "rating": 4.9,
+      "reviewsCount": 890,
+      "deliveryEstimate": 38,
+      "deliveryFee": 50,
+      "minOrder": 450,
+      "specialOffers": "Free Edamame with Chef Tasting Platters",
+      "openingHours": "12:30 PM - 11:00 PM",
+      "contactPhone": "+91 80 4333 5511",
+      "address": "UB City, Vittal Mallya Road, Bengaluru",
+      "coordinates": {
+        "lat": 12.9715,
+        "lng": 77.5962
+      },
+      "status": "approved",
+      "isVegOnly": false,
+      "popularBadge": false,
+      "bestsellerBadge": true,
+      "totalOrders": 620,
+      "createdAt": "2026-11-03T15:52:41.133Z",
+      "updatedAt": "2026-11-03T15:52:41.133Z"
+    },
+    {
+      "_id": "rest-9",
+      "name": "Punjab Grill & Royal Tandoor",
+      "tagline": "Heritage North Indian Butter Curries & Naans",
+      "description": "Silky Butter Chicken, Dal Makhani simmered 24 hours over charcoal, and stuffed garlic kulchas.",
+      "logo": "https://images.unsplash.com/photo-1585937421612-70a008356fbe?w=120&auto=format&fit=crop&q=80",
+      "coverImage": "https://images.unsplash.com/photo-1585937421612-70a008356fbe?w=1000&auto=format&fit=crop&q=80",
+      "cuisineTypes": [
+        "North Indian",
+        "Tandoori",
+        "Curry"
+      ],
+      "rating": 4.8,
+      "reviewsCount": 2100,
+      "deliveryEstimate": 32,
+      "deliveryFee": 35,
+      "minOrder": 300,
+      "specialOffers": "20% OFF | Code: PUNJAB20",
+      "openingHours": "11:30 AM - 11:30 PM",
+      "contactPhone": "+91 80 4555 1234",
+      "address": "Phoenix Marketcity, Whitefield Road, Bengaluru",
+      "coordinates": {
+        "lat": 12.9965,
+        "lng": 77.6961
+      },
+      "status": "approved",
+      "isVegOnly": false,
+      "popularBadge": true,
+      "bestsellerBadge": true,
+      "totalOrders": 2450,
+      "createdAt": "2026-11-03T15:52:41.133Z",
+      "updatedAt": "2026-11-03T15:52:41.133Z"
+    },
+    {
+      "_id": "rest-10",
+      "name": "Avocado Club & Cold Pressed Co.",
+      "tagline": "Superfoods, Acai Bowls & Nourishing Smoothies",
+      "description": "Organic Haas avocado toasts, antioxidant rich acai berry bowls, and cold-pressed citrus cleansers.",
+      "logo": "https://images.unsplash.com/photo-1540420773420-3366772f4999?w=120&auto=format&fit=crop&q=80",
+      "coverImage": "https://images.unsplash.com/photo-1540420773420-3366772f4999?w=1000&auto=format&fit=crop&q=80",
+      "cuisineTypes": [
+        "Healthy & Green",
+        "Vegan",
+        "Breakfast"
+      ],
+      "rating": 4.7,
+      "reviewsCount": 430,
+      "deliveryEstimate": 20,
+      "deliveryFee": 25,
+      "minOrder": 180,
+      "specialOffers": "10% OFF your Morning Super-Bowl",
+      "openingHours": "07:30 AM - 09:00 PM",
+      "contactPhone": "+91 80 4888 9900",
+      "address": "Sadashivanagar, Bengaluru",
+      "coordinates": {
+        "lat": 13.0076,
+        "lng": 77.5815
+      },
+      "status": "approved",
+      "isVegOnly": true,
+      "popularBadge": false,
+      "bestsellerBadge": false,
+      "totalOrders": 510,
+      "createdAt": "2026-11-03T15:52:41.133Z",
+      "updatedAt": "2026-11-03T15:52:41.133Z"
+    },
+    {
+      "_id": "rest-11",
+      "name": "Chai Point & Desi Snacks",
+      "tagline": "Ginger Cardamom Chai, Samosas & Bun Maska",
+      "description": "Hot brewed premium chai flasks with crispy hot aloo samosas, keema cutlets, and buttery bun maska.",
+      "logo": "https://images.unsplash.com/photo-1576092768241-dec231879fc3?w=120&auto=format&fit=crop&q=80",
+      "coverImage": "https://images.unsplash.com/photo-1576092768241-dec231879fc3?w=1000&auto=format&fit=crop&q=80",
+      "cuisineTypes": [
+        "Drinks & Shakes",
+        "Indian",
+        "Snacks"
+      ],
+      "rating": 4.5,
+      "reviewsCount": 1780,
+      "deliveryEstimate": 18,
+      "deliveryFee": 20,
+      "minOrder": 100,
+      "specialOffers": "Combo @ ₹129: Hot Chai + 2 Samosas",
+      "openingHours": "07:00 AM - 11:00 PM",
+      "contactPhone": "+91 80 4999 1111",
+      "address": "HSR Layout Sector 1, Bengaluru",
+      "coordinates": {
+        "lat": 12.9121,
+        "lng": 77.6446
+      },
+      "status": "approved",
+      "isVegOnly": true,
+      "popularBadge": true,
+      "bestsellerBadge": false,
+      "totalOrders": 1980,
+      "createdAt": "2026-11-03T15:52:41.134Z",
+      "updatedAt": "2026-11-03T15:52:41.134Z"
+    },
+    {
+      "_id": "rest-12",
+      "name": "Bombay Pav & Street Spice",
+      "tagline": "Authentic Vada Pav, Misal & Pav Bhaji",
+      "description": "Buttery Mumbai style Pav Bhaji, fiery Kolhapuri Misal with extra farsan, and crunchy spiced Vada Pav.",
+      "logo": "https://images.unsplash.com/photo-1606491956689-2ea866880c84?w=120&auto=format&fit=crop&q=80",
+      "coverImage": "https://images.unsplash.com/photo-1606491956689-2ea866880c84?w=1000&auto=format&fit=crop&q=80",
+      "cuisineTypes": [
+        "Street Food",
+        "Indian",
+        "Pure Veg"
+      ],
+      "rating": 4.6,
+      "reviewsCount": 1340,
+      "deliveryEstimate": 22,
+      "deliveryFee": 25,
+      "minOrder": 120,
+      "specialOffers": "Buy 2 Vada Pav Get 1 Free",
+      "openingHours": "10:00 AM - 10:30 PM",
+      "contactPhone": "+91 80 4777 6655",
+      "address": "Jayanagar 4th Block, Bengaluru",
+      "coordinates": {
+        "lat": 12.9299,
+        "lng": 77.5824
+      },
+      "status": "approved",
+      "isVegOnly": true,
+      "popularBadge": false,
+      "bestsellerBadge": false,
+      "totalOrders": 1650,
+      "createdAt": "2026-11-03T15:52:41.134Z",
+      "updatedAt": "2026-11-03T15:52:41.134Z"
+    }
+  ],
+  "foodItems": [
+    {
+      "_id": "food-1",
+      "restaurantId": "rest-1",
+      "name": "Margherita Burrata Speciale",
+      "price": 380,
+      "category": "Gourmet Pizzas",
+      "description": "Slow-proved sourdough base topped with creamy whole fresh burrata, San Marzano tomatoes, and sweet basil leaves.",
+      "image": "https://images.unsplash.com/photo-1574071318508-1cdbab80d002?w=600&auto=format&fit=crop&q=80",
+      "isVeg": true,
+      "isVegan": false,
+      "spiceLevel": "Mild",
+      "preparationTime": 20,
+      "isBestseller": true,
+      "isPopular": true,
+      "available": true,
+      "customizations": {
+        "sizes": [
+          {
+            "name": "10-inch Regular",
+            "price": 0
+          },
+          {
+            "name": "12-inch Large",
+            "price": 120
+          }
+        ],
+        "spiceLevels": [
+          "Mild",
+          "Chili Flakes Added"
+        ],
+        "addOns": [
+          {
+            "name": "Extra Truffle Oil",
+            "price": 60
+          },
+          {
+            "name": "Smoked Garlic Dip",
+            "price": 40
+          }
+        ]
+      },
+      "createdAt": "2026-11-03T15:52:41.135Z",
+      "updatedAt": "2026-11-03T15:52:41.135Z"
+    },
+    {
+      "_id": "food-2",
+      "restaurantId": "rest-1",
+      "name": "Diavola Pepperoni & Hot Honey",
+      "price": 460,
+      "category": "Gourmet Pizzas",
+      "description": "Artisanal cured pepperoni, fiery Calabrian chili oil, fior di latte, and a golden drizzle of organic hot honey.",
+      "image": "https://images.unsplash.com/photo-1628840042765-356cda07504e?w=600&auto=format&fit=crop&q=80",
+      "isVeg": false,
+      "spiceLevel": "Hot",
+      "preparationTime": 22,
+      "isBestseller": true,
+      "isPopular": true,
+      "available": true,
+      "customizations": {
+        "sizes": [
+          {
+            "name": "10-inch Regular",
+            "price": 0
+          },
+          {
+            "name": "12-inch Large",
+            "price": 140
+          }
+        ],
+        "spiceLevels": [
+          "Medium Hot",
+          "Calabrian Fiery"
+        ],
+        "addOns": [
+          {
+            "name": "Extra Pepperoni",
+            "price": 80
+          },
+          {
+            "name": "Jalapenos",
+            "price": 30
+          }
+        ]
+      },
+      "createdAt": "2026-11-03T15:52:41.135Z",
+      "updatedAt": "2026-11-03T15:52:41.135Z"
+    },
+    {
+      "_id": "food-3",
+      "restaurantId": "rest-1",
+      "name": "Truffled Wild Mushroom Pizza",
+      "price": 440,
+      "category": "Gourmet Pizzas",
+      "description": "Portobello and button mushrooms sauteed in thyme butter, white truffle glaze, fontina cheese, and shaved parmesan.",
+      "image": "https://images.unsplash.com/photo-1513104890138-7c749659a591?w=600&auto=format&fit=crop&q=80",
+      "isVeg": true,
+      "spiceLevel": "Mild",
+      "preparationTime": 20,
+      "isBestseller": false,
+      "isPopular": true,
+      "available": true,
+      "customizations": {
+        "sizes": [
+          {
+            "name": "10-inch Regular",
+            "price": 0
+          },
+          {
+            "name": "12-inch Large",
+            "price": 130
+          }
+        ],
+        "spiceLevels": [
+          "Mild"
+        ],
+        "addOns": [
+          {
+            "name": "Black Olives",
+            "price": 35
+          },
+          {
+            "name": "Pecorino Romano",
+            "price": 50
+          }
+        ]
+      },
+      "createdAt": "2026-11-03T15:52:41.135Z",
+      "updatedAt": "2026-11-03T15:52:41.135Z"
+    },
+    {
+      "_id": "food-4",
+      "restaurantId": "rest-1",
+      "name": "Classic Garlic Knots with Marinara",
+      "price": 180,
+      "category": "Gourmet Pizzas",
+      "description": "Baked fresh knotted sourdough rolls brushed with herb garlic butter and served with warm house marinara dip.",
+      "image": "https://images.unsplash.com/photo-1541592106381-b31e9677c0e5?w=600&auto=format&fit=crop&q=80",
+      "isVeg": true,
+      "spiceLevel": "Mild",
+      "preparationTime": 15,
+      "isBestseller": false,
+      "isPopular": true,
+      "available": true,
+      "createdAt": "2026-11-03T15:52:41.135Z",
+      "updatedAt": "2026-11-03T15:52:41.135Z"
+    },
+    {
+      "_id": "food-5",
+      "restaurantId": "rest-1",
+      "name": "Tiramisu Tradizionale",
+      "price": 240,
+      "category": "Desserts & Bakes",
+      "description": "Espresso-soaked savoiardi ladyfingers layered with whipped mascarpone cream and dusted with Belgian cocoa.",
+      "image": "https://images.unsplash.com/photo-1571877227200-a0d98ea607e9?w=600&auto=format&fit=crop&q=80",
+      "isVeg": true,
+      "spiceLevel": "Mild",
+      "preparationTime": 10,
+      "isBestseller": true,
+      "isPopular": true,
+      "available": true,
+      "createdAt": "2026-11-03T15:52:41.135Z",
+      "updatedAt": "2026-11-03T15:52:41.135Z"
+    },
+    {
+      "_id": "food-6",
+      "restaurantId": "rest-2",
+      "name": "Royal Murgh Dum Biryani",
+      "price": 360,
+      "category": "Biryani & Bowls",
+      "description": "Tender chicken pieces marinated in Persian royal spices, layered with fragrant saffron basmati rice and caramelized onions.",
+      "image": "https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?w=600&auto=format&fit=crop&q=80",
+      "isVeg": false,
+      "spiceLevel": "Medium",
+      "preparationTime": 25,
+      "isBestseller": true,
+      "isPopular": true,
+      "available": true,
+      "customizations": {
+        "sizes": [
+          {
+            "name": "Regular (Serves 1-2)",
+            "price": 0
+          },
+          {
+            "name": "King Size (Serves 2-3)",
+            "price": 180
+          }
+        ],
+        "spiceLevels": [
+          "Mild",
+          "Medium Royal",
+          "Spicy"
+        ],
+        "addOns": [
+          {
+            "name": "Extra Boondi Raita",
+            "price": 35
+          },
+          {
+            "name": "Mughlai Salan",
+            "price": 40
+          }
+        ]
+      },
+      "createdAt": "2026-11-03T15:52:41.135Z",
+      "updatedAt": "2026-11-03T15:52:41.135Z"
+    },
+    {
+      "_id": "food-7",
+      "restaurantId": "rest-2",
+      "name": "Shahi Gosht Mutton Biryani",
+      "price": 490,
+      "category": "Biryani & Bowls",
+      "description": "Succulent lamb slow-cooked to melt-in-mouth tenderness, infused with Kewra water, rose petals, and saffron rice.",
+      "image": "https://images.unsplash.com/photo-1589302168068-964664d93dc0?w=600&auto=format&fit=crop&q=80",
+      "isVeg": false,
+      "spiceLevel": "Medium",
+      "preparationTime": 25,
+      "isBestseller": true,
+      "isPopular": true,
+      "available": true,
+      "customizations": {
+        "sizes": [
+          {
+            "name": "Regular",
+            "price": 0
+          },
+          {
+            "name": "Jumbo Platter",
+            "price": 240
+          }
+        ],
+        "spiceLevels": [
+          "Medium",
+          "Spicy"
+        ],
+        "addOns": [
+          {
+            "name": "Fried Onions (Birista)",
+            "price": 30
+          },
+          {
+            "name": "Boiled Egg (2 pcs)",
+            "price": 35
+          }
+        ]
+      },
+      "createdAt": "2026-11-03T15:52:41.135Z",
+      "updatedAt": "2026-11-03T15:52:41.136Z"
+    },
+    {
+      "_id": "food-8",
+      "restaurantId": "rest-2",
+      "name": "Subz-e-Falz Vegetable Dum Biryani",
+      "price": 290,
+      "category": "Biryani & Bowls",
+      "description": "Crispy florets, carrots, french beans, paneer cubes, and golden cashew nuts dum cooked with royal basmati.",
+      "image": "https://images.unsplash.com/photo-1633945274405-b6c8069047b0?w=600&auto=format&fit=crop&q=80",
+      "isVeg": true,
+      "spiceLevel": "Medium",
+      "preparationTime": 20,
+      "isBestseller": false,
+      "isPopular": true,
+      "available": true,
+      "createdAt": "2026-11-03T15:52:41.136Z",
+      "updatedAt": "2026-11-03T15:52:41.136Z"
+    },
+    {
+      "_id": "food-9",
+      "restaurantId": "rest-2",
+      "name": "Dastan-e-Kebab Platter",
+      "price": 340,
+      "category": "Biryani & Bowls",
+      "description": "Assortment of Galouti kebabs and smoky char-grilled Murgh Tikka served with mint dip and lachha onions.",
+      "image": "https://images.unsplash.com/photo-1599488615731-7e5c2823ff28?w=600&auto=format&fit=crop&q=80",
+      "isVeg": false,
+      "spiceLevel": "Hot",
+      "preparationTime": 20,
+      "isBestseller": false,
+      "isPopular": true,
+      "available": true,
+      "createdAt": "2026-11-03T15:52:41.136Z",
+      "updatedAt": "2026-11-03T15:52:41.136Z"
+    },
+    {
+      "_id": "food-10",
+      "restaurantId": "rest-2",
+      "name": "Royal Angoori Gulab Jamun (4 Pcs)",
+      "price": 120,
+      "category": "Desserts & Bakes",
+      "description": "Warm melt-in-mouth cottage cheese dumplings soaked in aromatic cardamom and saffron sugar syrup.",
+      "image": "https://images.unsplash.com/photo-1601050690597-df0568f70950?w=600&auto=format&fit=crop&q=80",
+      "isVeg": true,
+      "spiceLevel": "Mild",
+      "preparationTime": 5,
+      "isBestseller": false,
+      "isPopular": true,
+      "available": true,
+      "createdAt": "2026-11-03T15:52:41.136Z",
+      "updatedAt": "2026-11-03T15:52:41.136Z"
+    },
+    {
+      "_id": "food-11",
+      "restaurantId": "rest-3",
+      "name": "The Ultimate Double Smash Burger",
+      "price": 320,
+      "category": "Artisanal Burgers",
+      "description": "Two smashed tender patties with lacey crispy crust, double American cheese, caramelized onions, pickles, and lab sauce in a toasted brioche bun.",
+      "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=600&auto=format&fit=crop&q=80",
+      "isVeg": false,
+      "spiceLevel": "Medium",
+      "preparationTime": 18,
+      "isBestseller": true,
+      "isPopular": true,
+      "available": true,
+      "customizations": {
+        "sizes": [
+          {
+            "name": "Double Patty",
+            "price": 0
+          },
+          {
+            "name": "Triple Monster Stack",
+            "price": 110
+          }
+        ],
+        "spiceLevels": [
+          "Classic",
+          "Spicy Jalapeno Kick"
+        ],
+        "addOns": [
+          {
+            "name": "Extra Crispy Bacon",
+            "price": 65
+          },
+          {
+            "name": "Truffle Cheddar",
+            "price": 45
+          }
+        ]
+      },
+      "createdAt": "2026-11-03T15:52:41.137Z",
+      "updatedAt": "2026-11-03T15:52:41.137Z"
+    },
+    {
+      "_id": "food-12",
+      "restaurantId": "rest-3",
+      "name": "Nashville Hot Crispy Chicken Burger",
+      "price": 290,
+      "category": "Artisanal Burgers",
+      "description": "Buttermilk fried chicken tossed in Nashville cayenne oil, purple slaw, honey butter pickles, and garlic aioli.",
+      "image": "https://images.unsplash.com/photo-1625813506062-0aeb1d7a094b?w=600&auto=format&fit=crop&q=80",
+      "isVeg": false,
+      "spiceLevel": "Extra Hot",
+      "preparationTime": 18,
+      "isBestseller": true,
+      "isPopular": true,
+      "available": true,
+      "createdAt": "2026-11-03T15:52:41.137Z",
+      "updatedAt": "2026-11-03T15:52:41.137Z"
+    },
+    {
+      "_id": "food-13",
+      "restaurantId": "rest-3",
+      "name": "Smoked Truffle Portobello Burger (Veg)",
+      "price": 270,
+      "category": "Artisanal Burgers",
+      "description": "Panko crumbed portobello mushroom stuffed with mozzarella, smoked gouda, arugula, and truffle mayo.",
+      "image": "https://images.unsplash.com/photo-1550547660-d9450f859349?w=600&auto=format&fit=crop&q=80",
+      "isVeg": true,
+      "spiceLevel": "Mild",
+      "preparationTime": 16,
+      "isBestseller": false,
+      "isPopular": true,
+      "available": true,
+      "createdAt": "2026-11-03T15:52:41.137Z",
+      "updatedAt": "2026-11-03T15:52:41.137Z"
+    },
+    {
+      "_id": "food-14",
+      "restaurantId": "rest-3",
+      "name": "Loaded Animal-Style Fries",
+      "price": 190,
+      "category": "Artisanal Burgers",
+      "description": "Crispy golden fries smothered in cheddar sauce, grilled sweet onions, and house special burger glaze.",
+      "image": "https://images.unsplash.com/photo-1576107232684-1279f3908594?w=600&auto=format&fit=crop&q=80",
+      "isVeg": true,
+      "spiceLevel": "Medium",
+      "preparationTime": 12,
+      "isBestseller": true,
+      "isPopular": true,
+      "available": true,
+      "createdAt": "2026-11-03T15:52:41.137Z",
+      "updatedAt": "2026-11-03T15:52:41.137Z"
+    },
+    {
+      "_id": "food-15",
+      "restaurantId": "rest-3",
+      "name": "Lotus Biscoff Thick Monster Shake",
+      "price": 210,
+      "category": "Drinks & Shakes",
+      "description": "Spiced Belgian speculoos cookie butter blended with whole vanilla bean gelato and topped with whipped cream.",
+      "image": "https://images.unsplash.com/photo-1572490122747-3968b75cc699?w=600&auto=format&fit=crop&q=80",
+      "isVeg": true,
+      "spiceLevel": "Mild",
+      "preparationTime": 8,
+      "isBestseller": true,
+      "isPopular": true,
+      "available": true,
+      "createdAt": "2026-11-03T15:52:41.137Z",
+      "updatedAt": "2026-11-03T15:52:41.137Z"
+    },
+    {
+      "_id": "food-16",
+      "restaurantId": "rest-4",
+      "name": "Avocado Quinoa Green Goddess Bowl",
+      "price": 280,
+      "category": "Healthy & Green",
+      "description": "Nutrient-rich tricolor quinoa, sliced Hass avocados, edamame, baby spinach, pumpkin seeds, and tahini green goddess dressing.",
+      "image": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=600&auto=format&fit=crop&q=80",
+      "isVeg": true,
+      "isVegan": true,
+      "isGlutenFree": true,
+      "spiceLevel": "Mild",
+      "preparationTime": 15,
+      "isBestseller": true,
+      "isPopular": true,
+      "available": true,
+      "customizations": {
+        "sizes": [
+          {
+            "name": "Standard Bowl (350g)",
+            "price": 0
+          },
+          {
+            "name": "Protein Boost Bowl (500g)",
+            "price": 70
+          }
+        ],
+        "addOns": [
+          {
+            "name": "Organic Tofu Cubes",
+            "price": 40
+          },
+          {
+            "name": "Roasted Almond Flakes",
+            "price": 35
+          }
+        ]
+      },
+      "createdAt": "2026-11-03T15:52:41.137Z",
+      "updatedAt": "2026-11-03T15:52:41.137Z"
+    },
+    {
+      "_id": "food-17",
+      "restaurantId": "rest-4",
+      "name": "Mediterranean Falafel Mezze Platter",
+      "price": 320,
+      "category": "Healthy & Green",
+      "description": "Crispy herb falafels, smoked paprika hummus, beetroot tzatziki, tabbouleh, kalamata olives, and warm sourdough pita.",
+      "image": "https://images.unsplash.com/photo-1540420773420-3366772f4999?w=600&auto=format&fit=crop&q=80",
+      "isVeg": true,
+      "isVegan": true,
+      "spiceLevel": "Mild",
+      "preparationTime": 18,
+      "isBestseller": true,
+      "isPopular": true,
+      "available": true,
+      "createdAt": "2026-11-03T15:52:41.137Z",
+      "updatedAt": "2026-11-03T15:52:41.137Z"
+    },
+    {
+      "_id": "food-18",
+      "restaurantId": "rest-4",
+      "name": "Paneer Tikka Charcoal Wrap",
+      "price": 220,
+      "category": "Healthy & Green",
+      "description": "Marinated low-fat cottage cheese grilled in tandoor, rolled in a multigrain whole wheat flatbread with mint yogurt.",
+      "image": "https://images.unsplash.com/photo-1626777552726-4a6b54c97e46?w=600&auto=format&fit=crop&q=80",
+      "isVeg": true,
+      "isJain": true,
+      "spiceLevel": "Medium",
+      "preparationTime": 14,
+      "isBestseller": false,
+      "isPopular": true,
+      "available": true,
+      "createdAt": "2026-11-03T15:52:41.146Z",
+      "updatedAt": "2026-11-03T15:52:41.146Z"
+    },
+    {
+      "_id": "food-19",
+      "restaurantId": "rest-4",
+      "name": "Raw Cold-Pressed Green Glow Detox",
+      "price": 150,
+      "category": "Drinks & Shakes",
+      "description": "Organic celery, cucumber, green apple, spinach, ginger, and Meyer lemon. 100% natural with zero added sugar.",
+      "image": "https://images.unsplash.com/photo-1613478223719-2ab802602423?w=600&auto=format&fit=crop&q=80",
+      "isVeg": true,
+      "isVegan": true,
+      "spiceLevel": "Mild",
+      "preparationTime": 5,
+      "isBestseller": false,
+      "isPopular": true,
+      "available": true,
+      "createdAt": "2026-11-03T15:52:41.146Z",
+      "updatedAt": "2026-11-03T15:52:41.146Z"
+    },
+    {
+      "_id": "food-20",
+      "restaurantId": "rest-5",
+      "name": "Truffle Edamame Crystal Dimsums (6 pcs)",
+      "price": 340,
+      "category": "Pan-Asian & Dimsums",
+      "description": "Translucent steamed dumplings stuffed with crushed sweet edamame beans and aromatic white truffle essence.",
+      "image": "https://images.unsplash.com/photo-1541696432-82c6da8ce7bf?w=600&auto=format&fit=crop&q=80",
+      "isVeg": true,
+      "isVegan": true,
+      "spiceLevel": "Mild",
+      "preparationTime": 18,
+      "isBestseller": true,
+      "isPopular": true,
+      "available": true,
+      "createdAt": "2026-11-03T15:52:41.146Z",
+      "updatedAt": "2026-11-03T15:52:41.146Z"
+    },
+    {
+      "_id": "food-21",
+      "restaurantId": "rest-5",
+      "name": "Tokyo Chicken Shoyu Ramen",
+      "price": 390,
+      "category": "Pan-Asian & Dimsums",
+      "description": "12-hour simmered chicken broth, fresh wheat noodles, tender chashu chicken, soft-boiled ajitsuke tamago egg, and nori seaweed.",
+      "image": "https://images.unsplash.com/photo-1569718212165-3a8278d5f624?w=600&auto=format&fit=crop&q=80",
+      "isVeg": false,
+      "spiceLevel": "Medium",
+      "preparationTime": 22,
+      "isBestseller": true,
+      "isPopular": true,
+      "available": true,
+      "createdAt": "2026-11-03T15:52:41.146Z",
+      "updatedAt": "2026-11-03T15:52:41.146Z"
+    },
+    {
+      "_id": "food-22",
+      "restaurantId": "rest-5",
+      "name": "Fiery Wok-Tossed Hakka Chilli Noodles",
+      "price": 240,
+      "category": "Pan-Asian & Dimsums",
+      "description": "Handmade egg noodles tossed in high flame with bell peppers, spring onions, dark soy, and bird eye chilies.",
+      "image": "https://images.unsplash.com/photo-1585032226651-759b368d7246?w=600&auto=format&fit=crop&q=80",
+      "isVeg": true,
+      "spiceLevel": "Hot",
+      "preparationTime": 15,
+      "isBestseller": false,
+      "isPopular": true,
+      "available": true,
+      "createdAt": "2026-11-03T15:52:41.146Z",
+      "updatedAt": "2026-11-03T15:52:41.146Z"
+    },
+    {
+      "_id": "food-23",
+      "restaurantId": "rest-5",
+      "name": "Crispy Kung Pao Chicken with Peanuts",
+      "price": 310,
+      "category": "Pan-Asian & Dimsums",
+      "description": "Diced chicken tossed with crunchy roasted peanuts, dried red chilies, Sichuan peppercorns, and sweet tangy sauce.",
+      "image": "https://images.unsplash.com/photo-1525755662778-989d0524087e?w=600&auto=format&fit=crop&q=80",
+      "isVeg": false,
+      "spiceLevel": "Hot",
+      "preparationTime": 18,
+      "isBestseller": false,
+      "isPopular": true,
+      "available": true,
+      "createdAt": "2026-11-03T15:52:41.147Z",
+      "updatedAt": "2026-11-03T15:52:41.147Z"
+    },
+    {
+      "_id": "food-24",
+      "restaurantId": "rest-6",
+      "name": "Baja Crispy Fish Tacos (Trio)",
+      "price": 350,
+      "category": "Tacos & Mexican",
+      "description": "Beer-battered golden fish fillets in warm corn tortillas with chipotle lime crema, shredded purple cabbage, and pico de gallo.",
+      "image": "https://images.unsplash.com/photo-1551504734-5ee1c4a1479b?w=600&auto=format&fit=crop&q=80",
+      "isVeg": false,
+      "spiceLevel": "Medium",
+      "preparationTime": 18,
+      "isBestseller": true,
+      "isPopular": true,
+      "available": true,
+      "createdAt": "2026-11-03T15:52:41.147Z",
+      "updatedAt": "2026-11-03T15:52:41.147Z"
+    },
+    {
+      "_id": "food-25",
+      "restaurantId": "rest-6",
+      "name": "Slow-Cooked Barbacoa Burrito Bowl",
+      "price": 320,
+      "category": "Tacos & Mexican",
+      "description": "Braised shredded spiced beef, cilantro lime rice, black beans, Monterey Jack cheese, guacamole, and fire-roasted salsa.",
+      "image": "https://images.unsplash.com/photo-1565299585323-38d6b0865b47?w=600&auto=format&fit=crop&q=80",
+      "isVeg": false,
+      "spiceLevel": "Hot",
+      "preparationTime": 20,
+      "isBestseller": true,
+      "isPopular": true,
+      "available": true,
+      "createdAt": "2026-11-03T15:52:41.147Z",
+      "updatedAt": "2026-11-03T15:52:41.147Z"
+    },
+    {
+      "_id": "food-26",
+      "restaurantId": "rest-6",
+      "name": "Loaded Queso Nachos Grande",
+      "price": 260,
+      "category": "Tacos & Mexican",
+      "description": "Crispy stone-ground tortilla chips drenched in warm melted queso, jalapenos, sour cream, and fresh guacamole.",
+      "image": "https://images.unsplash.com/photo-1513456852971-30c0b8199d4d?w=600&auto=format&fit=crop&q=80",
+      "isVeg": true,
+      "spiceLevel": "Medium",
+      "preparationTime": 12,
+      "isBestseller": false,
+      "isPopular": true,
+      "available": true,
+      "createdAt": "2026-11-03T15:52:41.147Z",
+      "updatedAt": "2026-11-03T15:52:41.147Z"
+    },
+    {
+      "_id": "food-27",
+      "restaurantId": "rest-7",
+      "name": "Belgian Triple Chocolate Overload Waffle",
+      "price": 180,
+      "category": "Desserts & Bakes",
+      "description": "Warm crispy waffle loaded with melted Belgian dark, milk, and white chocolate ganache with chocolate crunch pearls.",
+      "image": "https://images.unsplash.com/photo-1562376552-0d160a2f238d?w=600&auto=format&fit=crop&q=80",
+      "isVeg": true,
+      "spiceLevel": "Mild",
+      "preparationTime": 12,
+      "isBestseller": true,
+      "isPopular": true,
+      "available": true,
+      "createdAt": "2026-11-03T15:52:41.148Z",
+      "updatedAt": "2026-11-03T15:52:41.148Z"
+    },
+    {
+      "_id": "food-28",
+      "restaurantId": "rest-7",
+      "name": "Nutella Brownie Waffle Sandwich",
+      "price": 210,
+      "category": "Desserts & Bakes",
+      "description": "Warm fudge brownie crumbled inside a toasted waffle sandwich overflowing with creamy Nutella hazelnut spread.",
+      "image": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=600&auto=format&fit=crop&q=80",
+      "isVeg": true,
+      "spiceLevel": "Mild",
+      "preparationTime": 14,
+      "isBestseller": true,
+      "isPopular": true,
+      "available": true,
+      "createdAt": "2026-11-03T15:52:41.148Z",
+      "updatedAt": "2026-11-03T15:52:41.148Z"
+    },
+    {
+      "_id": "food-29",
+      "restaurantId": "rest-7",
+      "name": "Berry Blast Red Velvet Waffle",
+      "price": 190,
+      "category": "Desserts & Bakes",
+      "description": "Red velvet waffle base crowned with Philadelphia cream cheese spread and strawberry compote.",
+      "image": "https://images.unsplash.com/photo-1509440159596-0249088772ff?w=600&auto=format&fit=crop&q=80",
+      "isVeg": true,
+      "spiceLevel": "Mild",
+      "preparationTime": 12,
+      "isBestseller": false,
+      "isPopular": true,
+      "available": true,
+      "createdAt": "2026-11-03T15:52:41.148Z",
+      "updatedAt": "2026-11-03T15:52:41.148Z"
+    },
+    {
+      "_id": "food-30",
+      "restaurantId": "rest-8",
+      "name": "Salmon Volcano Spicy Maki Roll (8 pcs)",
+      "price": 520,
+      "category": "Pan-Asian & Dimsums",
+      "description": "Fresh Norwegian salmon, cucumber, tobiko flying fish roe, topped with torched spicy kewpie mayo and unagi sauce.",
+      "image": "https://images.unsplash.com/photo-1579871494447-9811cf80d66c?w=600&auto=format&fit=crop&q=80",
+      "isVeg": false,
+      "spiceLevel": "Medium",
+      "preparationTime": 22,
+      "isBestseller": true,
+      "isPopular": true,
+      "available": true,
+      "createdAt": "2026-11-03T15:52:41.148Z",
+      "updatedAt": "2026-11-03T15:52:41.148Z"
+    },
+    {
+      "_id": "food-31",
+      "restaurantId": "rest-8",
+      "name": "Avocado Asparagus Crunch Roll (Veg 8 pcs)",
+      "price": 420,
+      "category": "Pan-Asian & Dimsums",
+      "description": "Crisp tempura asparagus, avocado, sesame seeds, and sweet soy glaze wrapped in seasoned sushi rice.",
+      "image": "https://images.unsplash.com/photo-1617196034796-73dfa7b1fd56?w=600&auto=format&fit=crop&q=80",
+      "isVeg": true,
+      "isVegan": true,
+      "spiceLevel": "Mild",
+      "preparationTime": 18,
+      "isBestseller": false,
+      "isPopular": true,
+      "available": true,
+      "createdAt": "2026-11-03T15:52:41.148Z",
+      "updatedAt": "2026-11-03T15:52:41.148Z"
+    },
+    {
+      "_id": "food-32",
+      "restaurantId": "rest-9",
+      "name": "Old Delhi Butter Chicken (Boneless)",
+      "price": 360,
+      "category": "Biryani & Bowls",
+      "description": "Charcoal-grilled tandoori chicken cooked in a rich, velvety tomato and cashew gravy enriched with butter and fenugreek.",
+      "image": "https://images.unsplash.com/photo-1585937421612-70a008356fbe?w=600&auto=format&fit=crop&q=80",
+      "isVeg": false,
+      "spiceLevel": "Medium",
+      "preparationTime": 20,
+      "isBestseller": true,
+      "isPopular": true,
+      "available": true,
+      "customizations": {
+        "sizes": [
+          {
+            "name": "Half (Serves 1-2)",
+            "price": 0
+          },
+          {
+            "name": "Full (Serves 3-4)",
+            "price": 180
+          }
+        ],
+        "addOns": [
+          {
+            "name": "Butter Naan",
+            "price": 45
+          },
+          {
+            "name": "Garlic Naan",
+            "price": 55
+          }
+        ]
+      },
+      "createdAt": "2026-11-03T15:52:41.148Z",
+      "updatedAt": "2026-11-03T15:52:41.148Z"
+    },
+    {
+      "_id": "food-33",
+      "restaurantId": "rest-9",
+      "name": "Dal Makhani Bukhara Style",
+      "price": 280,
+      "category": "Biryani & Bowls",
+      "description": "Black lentils slow cooked overnight on charcoal embers with butter, cream, and sun-dried tomatoes.",
+      "image": "https://images.unsplash.com/photo-1546833999-b9f581a1996d?w=600&auto=format&fit=crop&q=80",
+      "isVeg": true,
+      "spiceLevel": "Mild",
+      "preparationTime": 15,
+      "isBestseller": true,
+      "isPopular": true,
+      "available": true,
+      "createdAt": "2026-11-03T15:52:41.149Z",
+      "updatedAt": "2026-11-03T15:52:41.149Z"
+    },
+    {
+      "_id": "food-34",
+      "restaurantId": "rest-9",
+      "name": "Paneer Lababdar",
+      "price": 310,
+      "category": "Biryani & Bowls",
+      "description": "Soft cottage cheese chunks and grated paneer simmered in an aromatic onion, tomato, and cashew gravy.",
+      "image": "https://images.unsplash.com/photo-1567188040759-fb8a883dc6d8?w=600&auto=format&fit=crop&q=80",
+      "isVeg": true,
+      "spiceLevel": "Medium",
+      "preparationTime": 18,
+      "isBestseller": false,
+      "isPopular": true,
+      "available": true,
+      "createdAt": "2026-11-03T15:52:41.149Z",
+      "updatedAt": "2026-11-03T15:52:41.149Z"
+    },
+    {
+      "_id": "food-35",
+      "restaurantId": "rest-9",
+      "name": "Garlic Butter Chur Chur Naan",
+      "price": 70,
+      "category": "Biryani & Bowls",
+      "description": "Flaky layered bread baked in clay tandoor, crushed and brushed with pure desi ghee and minced garlic.",
+      "image": "https://images.unsplash.com/photo-1626777552726-4a6b54c97e46?w=600&auto=format&fit=crop&q=80",
+      "isVeg": true,
+      "spiceLevel": "Mild",
+      "preparationTime": 10,
+      "isBestseller": false,
+      "isPopular": true,
+      "available": true,
+      "createdAt": "2026-11-03T15:52:41.149Z",
+      "updatedAt": "2026-11-03T15:52:41.149Z"
+    },
+    {
+      "_id": "food-36",
+      "restaurantId": "rest-10",
+      "name": "Artisan Sourdough Avocado Toast",
+      "price": 240,
+      "category": "Healthy & Green",
+      "description": "Toasted organic sourdough smeared with smashed Hass avocado, cherry tomatoes, radish carpaccio, and hemp hearts.",
+      "image": "https://images.unsplash.com/photo-1525351484163-7529414344d8?w=600&auto=format&fit=crop&q=80",
+      "isVeg": true,
+      "isVegan": true,
+      "spiceLevel": "Mild",
+      "preparationTime": 12,
+      "isBestseller": true,
+      "isPopular": true,
+      "available": true,
+      "createdAt": "2026-11-03T15:52:41.149Z",
+      "updatedAt": "2026-11-03T15:52:41.149Z"
+    },
+    {
+      "_id": "food-37",
+      "restaurantId": "rest-10",
+      "name": "Brazilian Acai Berry Energy Bowl",
+      "price": 290,
+      "category": "Healthy & Green",
+      "description": "Frozen wild acai berry blend topped with organic chia seeds, blueberries, banana coins, and coconut flakes.",
+      "image": "https://images.unsplash.com/photo-1590301157890-4810ed352733?w=600&auto=format&fit=crop&q=80",
+      "isVeg": true,
+      "isVegan": true,
+      "isGlutenFree": true,
+      "spiceLevel": "Mild",
+      "preparationTime": 10,
+      "isBestseller": true,
+      "isPopular": true,
+      "available": true,
+      "createdAt": "2026-11-03T15:52:41.149Z",
+      "updatedAt": "2026-11-03T15:52:41.149Z"
+    },
+    {
+      "_id": "food-38",
+      "restaurantId": "rest-11",
+      "name": "Adrak Elaichi Chai Flask (500ml Serves 4)",
+      "price": 130,
+      "category": "Drinks & Shakes",
+      "description": "Hot authentic freshly brewed milk tea with crushed fresh ginger root and aromatic green cardamom.",
+      "image": "https://images.unsplash.com/photo-1576092768241-dec231879fc3?w=600&auto=format&fit=crop&q=80",
+      "isVeg": true,
+      "spiceLevel": "Mild",
+      "preparationTime": 10,
+      "isBestseller": true,
+      "isPopular": true,
+      "available": true,
+      "createdAt": "2026-11-03T15:52:41.149Z",
+      "updatedAt": "2026-11-03T15:52:41.149Z"
+    },
+    {
+      "_id": "food-39",
+      "restaurantId": "rest-11",
+      "name": "Crispy Punjabi Samosa (2 Pcs)",
+      "price": 70,
+      "category": "Biryani & Bowls",
+      "description": "Crispy flaky pastry stuffed with spiced potatoes, green peas, and whole coriander seeds. Served with tamarind chutney.",
+      "image": "https://images.unsplash.com/photo-1601050690597-df0568f70950?w=600&auto=format&fit=crop&q=80",
+      "isVeg": true,
+      "spiceLevel": "Medium",
+      "preparationTime": 8,
+      "isBestseller": true,
+      "isPopular": true,
+      "available": true,
+      "createdAt": "2026-11-03T15:52:41.150Z",
+      "updatedAt": "2026-11-03T15:52:41.150Z"
+    },
+    {
+      "_id": "food-40",
+      "restaurantId": "rest-11",
+      "name": "Irani Maska Bun with Fruit Jam",
+      "price": 80,
+      "category": "Biryani & Bowls",
+      "description": "Fluffy warm bakery bun stuffed generously with salted butter and sweet mixed fruit preserve.",
+      "image": "https://images.unsplash.com/photo-1509440159596-0249088772ff?w=600&auto=format&fit=crop&q=80",
+      "isVeg": true,
+      "spiceLevel": "Mild",
+      "preparationTime": 6,
+      "isBestseller": false,
+      "isPopular": true,
+      "available": true,
+      "createdAt": "2026-11-03T15:52:41.150Z",
+      "updatedAt": "2026-11-03T15:52:41.150Z"
+    },
+    {
+      "_id": "food-41",
+      "restaurantId": "rest-12",
+      "name": "Special Amul Butter Pav Bhaji",
+      "price": 180,
+      "category": "Biryani & Bowls",
+      "description": "Mashed spiced vegetable mash cooked on a huge iron tawa with generous dollops of Amul butter and toasted buttered pavs.",
+      "image": "https://images.unsplash.com/photo-1606491956689-2ea866880c84?w=600&auto=format&fit=crop&q=80",
+      "isVeg": true,
+      "spiceLevel": "Medium",
+      "preparationTime": 15,
+      "isBestseller": true,
+      "isPopular": true,
+      "available": true,
+      "createdAt": "2026-11-03T15:52:41.150Z",
+      "updatedAt": "2026-11-03T15:52:41.150Z"
+    },
+    {
+      "_id": "food-42",
+      "restaurantId": "rest-12",
+      "name": "Mumbai Batata Vada Pav (2 Pcs)",
+      "price": 90,
+      "category": "Biryani & Bowls",
+      "description": "Golden fried spiced potato ball in soft pav layered with fiery garlic chutney, sweet chutney, and fried salted green chilies.",
+      "image": "https://images.unsplash.com/photo-1626777552726-4a6b54c97e46?w=600&auto=format&fit=crop&q=80",
+      "isVeg": true,
+      "spiceLevel": "Hot",
+      "preparationTime": 10,
+      "isBestseller": true,
+      "isPopular": true,
+      "available": true,
+      "createdAt": "2026-11-03T15:52:41.150Z",
+      "updatedAt": "2026-11-03T15:52:41.150Z"
+    },
+    {
+      "_id": "food-43",
+      "restaurantId": "rest-12",
+      "name": "Kolhapuri Kat Misal Pav",
+      "price": 140,
+      "category": "Biryani & Bowls",
+      "description": "Sprouted moth beans in a fiery red coconut-chili curry topped with crunchy farsan, onions, coriander, and fresh lemon.",
+      "image": "https://images.unsplash.com/photo-1606491956689-2ea866880c84?w=600&auto=format&fit=crop&q=80",
+      "isVeg": true,
+      "spiceLevel": "Extra Hot",
+      "preparationTime": 12,
+      "isBestseller": false,
+      "isPopular": true,
+      "available": true,
+      "createdAt": "2026-11-03T15:52:41.150Z",
+      "updatedAt": "2026-11-03T15:52:41.150Z"
+    },
+    {
+      "_id": "food-44",
+      "restaurantId": "rest-1",
+      "name": "Burrata Caprese Salad",
+      "price": 310,
+      "category": "Healthy & Green",
+      "description": "Heritage heirloom tomatoes, pugliese burrata, aged Modena balsamic reduction, and extra virgin olive oil.",
+      "image": "https://images.unsplash.com/photo-1592417817098-8f3d6910985b?w=600&auto=format&fit=crop&q=80",
+      "isVeg": true,
+      "spiceLevel": "Mild",
+      "preparationTime": 12,
+      "isBestseller": false,
+      "isPopular": false,
+      "available": true,
+      "createdAt": "2026-11-03T15:52:41.151Z",
+      "updatedAt": "2026-11-03T15:52:41.151Z"
+    },
+    {
+      "_id": "food-45",
+      "restaurantId": "rest-3",
+      "name": "Parmesan Herb Truffle Fries",
+      "price": 210,
+      "category": "Artisanal Burgers",
+      "description": "Hand-cut russet potato fries tossed in Italian white truffle oil, shaved aged parmesan, and chopped Italian parsley.",
+      "image": "https://images.unsplash.com/photo-1576107232684-1279f3908594?w=600&auto=format&fit=crop&q=80",
+      "isVeg": true,
+      "spiceLevel": "Mild",
+      "preparationTime": 12,
+      "isBestseller": false,
+      "isPopular": true,
+      "available": true,
+      "createdAt": "2026-11-03T15:52:41.151Z",
+      "updatedAt": "2026-11-03T15:52:41.151Z"
+    },
+    {
+      "_id": "food-46",
+      "restaurantId": "rest-5",
+      "name": "Steamed Prawn Har Gow Dumplings (4 Pcs)",
+      "price": 360,
+      "category": "Pan-Asian & Dimsums",
+      "description": "Classic Cantonese translucent pleated dumplings filled with whole juicy king prawns and bamboo shoots.",
+      "image": "https://images.unsplash.com/photo-1541696432-82c6da8ce7bf?w=600&auto=format&fit=crop&q=80",
+      "isVeg": false,
+      "spiceLevel": "Mild",
+      "preparationTime": 16,
+      "isBestseller": false,
+      "isPopular": true,
+      "available": true,
+      "createdAt": "2026-11-03T15:52:41.151Z",
+      "updatedAt": "2026-11-03T15:52:41.151Z"
+    },
+    {
+      "_id": "food-47",
+      "restaurantId": "rest-6",
+      "name": "Churros con Dulce de Leche (4 pcs)",
+      "price": 190,
+      "category": "Desserts & Bakes",
+      "description": "Crispy fried Mexican pastry sticks rolled in cinnamon sugar and served with warm dulce de leche caramel dip.",
+      "image": "https://images.unsplash.com/photo-1587314168485-3236d6710814?w=600&auto=format&fit=crop&q=80",
+      "isVeg": true,
+      "spiceLevel": "Mild",
+      "preparationTime": 10,
+      "isBestseller": false,
+      "isPopular": true,
+      "available": true,
+      "createdAt": "2026-11-03T15:52:41.151Z",
+      "updatedAt": "2026-11-03T15:52:41.151Z"
+    },
+    {
+      "_id": "food-48",
+      "restaurantId": "rest-7",
+      "name": "Dark Chocolate Lava Cake",
+      "price": 170,
+      "category": "Desserts & Bakes",
+      "description": "Warm cocoa sponge with a molten liquid Belgian dark chocolate center that oozes out upon the first spoon.",
+      "image": "https://images.unsplash.com/photo-1606313564200-e75d5e30476c?w=600&auto=format&fit=crop&q=80",
+      "isVeg": true,
+      "spiceLevel": "Mild",
+      "preparationTime": 10,
+      "isBestseller": true,
+      "isPopular": true,
+      "available": true,
+      "createdAt": "2026-11-03T15:52:41.151Z",
+      "updatedAt": "2026-11-03T15:52:41.151Z"
+    },
+    {
+      "_id": "food-49",
+      "restaurantId": "rest-9",
+      "name": "Paneer Tikka Angara",
+      "price": 290,
+      "category": "Biryani & Bowls",
+      "description": "Cottage cheese cubes marinated in mustard oil, roasted gram flour, and spicy red masala, smoked over charcoal.",
+      "image": "https://images.unsplash.com/photo-1567188040759-fb8a883dc6d8?w=600&auto=format&fit=crop&q=80",
+      "isVeg": true,
+      "spiceLevel": "Hot",
+      "preparationTime": 18,
+      "isBestseller": false,
+      "isPopular": true,
+      "available": true,
+      "createdAt": "2026-11-03T15:52:41.151Z",
+      "updatedAt": "2026-11-03T15:52:41.151Z"
+    },
+    {
+      "_id": "food-50",
+      "restaurantId": "rest-3",
+      "name": "Crispy Onion Rings with Garlic Dip",
+      "price": 140,
+      "category": "Artisanal Burgers",
+      "description": "Thick sliced sweet yellow onions dipped in spiced beer batter and deep fried to golden crunch perfection.",
+      "image": "https://images.unsplash.com/photo-1639024471287-032f66e51147?w=600&auto=format&fit=crop&q=80",
+      "isVeg": true,
+      "spiceLevel": "Mild",
+      "preparationTime": 10,
+      "isBestseller": false,
+      "isPopular": false,
+      "available": true,
+      "createdAt": "2026-11-03T15:52:41.152Z",
+      "updatedAt": "2026-11-03T15:52:41.152Z"
+    },
+    {
+      "_id": "food-51",
+      "restaurantId": "rest-11",
+      "name": "Kesar Badam Thandai Cooler",
+      "price": 110,
+      "category": "Drinks & Shakes",
+      "description": "Chilled rich milk infused with crushed Californian almonds, saffron, fennel seeds, and rose water.",
+      "image": "https://images.unsplash.com/photo-1576092768241-dec231879fc3?w=600&auto=format&fit=crop&q=80",
+      "isVeg": true,
+      "spiceLevel": "Mild",
+      "preparationTime": 5,
+      "isBestseller": false,
+      "isPopular": true,
+      "available": true,
+      "createdAt": "2026-11-03T15:52:41.152Z",
+      "updatedAt": "2026-11-03T15:52:41.152Z"
+    }
+  ],
+  "categories": [
+    {
+      "_id": "fc0be18d-e19d-430f-8b92-684b6448fae5",
+      "name": "Biryani & Bowls",
+      "slug": "biryani-bowls",
+      "icon": "🍲",
+      "image": "https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?w=300&auto=format&fit=crop&q=80",
+      "description": "Royal dum biryanis, aromatic curries, and comforting rice bowls",
+      "createdAt": "2026-11-03T15:52:41.131Z",
+      "updatedAt": "2026-11-03T15:52:41.131Z"
+    },
+    {
+      "_id": "f91039ae-8b4e-4449-9f5c-ac44c53323e5",
+      "name": "Gourmet Pizzas",
+      "slug": "gourmet-pizzas",
+      "icon": "🍕",
+      "image": "https://images.unsplash.com/photo-1513104890138-7c749659a591?w=300&auto=format&fit=crop&q=80",
+      "description": "Wood-fired sourdough crusts with buffalo mozzarella & fresh toppings",
+      "createdAt": "2026-11-03T15:52:41.131Z",
+      "updatedAt": "2026-11-03T15:52:41.131Z"
+    },
+    {
+      "_id": "cc22d5ed-d6dc-4c34-8173-5d84d69a0388",
+      "name": "Artisanal Burgers",
+      "slug": "artisanal-burgers",
+      "icon": "🍔",
+      "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=300&auto=format&fit=crop&q=80",
+      "description": "Brioche buns, smashed patties, truffle mayo, and crispy fries",
+      "createdAt": "2026-11-03T15:52:41.131Z",
+      "updatedAt": "2026-11-03T15:52:41.131Z"
+    },
+    {
+      "_id": "99ed22f0-782e-4583-925a-b676b61b8ddf",
+      "name": "Pan-Asian & Dimsums",
+      "slug": "pan-asian",
+      "icon": "🥟",
+      "image": "https://images.unsplash.com/photo-1541696432-82c6da8ce7bf?w=300&auto=format&fit=crop&q=80",
+      "description": "Steaming crystal dumplings, fiery ramen, and wok-tossed noodles",
+      "createdAt": "2026-11-03T15:52:41.132Z",
+      "updatedAt": "2026-11-03T15:52:41.132Z"
+    },
+    {
+      "_id": "0f21d8e5-a6a2-4c67-a9aa-789e3f8d5eb9",
+      "name": "Tacos & Mexican",
+      "slug": "mexican",
+      "icon": "🌮",
+      "image": "https://images.unsplash.com/photo-1551504734-5ee1c4a1479b?w=300&auto=format&fit=crop&q=80",
+      "description": "Loaded burritos, crispy nachos, salsa brava, and guacamole bowls",
+      "createdAt": "2026-11-03T15:52:41.132Z",
+      "updatedAt": "2026-11-03T15:52:41.132Z"
+    },
+    {
+      "_id": "44de3280-b17a-4b72-8ca1-09b86bf1b71c",
+      "name": "Healthy & Green",
+      "slug": "healthy-green",
+      "icon": "🥗",
+      "image": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=300&auto=format&fit=crop&q=80",
+      "description": "Keto salads, avocado poke bowls, and freshly cold-pressed elixirs",
+      "createdAt": "2026-11-03T15:52:41.132Z",
+      "updatedAt": "2026-11-03T15:52:41.132Z"
+    },
+    {
+      "_id": "25471882-0b9f-45d0-b8b6-2ac50cb8a405",
+      "name": "Desserts & Bakes",
+      "slug": "desserts",
+      "icon": "🍰",
+      "image": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=300&auto=format&fit=crop&q=80",
+      "description": "Belgium waffles, artisanal brownies, cheesecakes, and gelato",
+      "createdAt": "2026-11-03T15:52:41.132Z",
+      "updatedAt": "2026-11-03T15:52:41.132Z"
+    },
+    {
+      "_id": "e4c1d2e6-0a30-4f19-bcb1-69c84f7f6bd9",
+      "name": "Drinks & Shakes",
+      "slug": "drinks",
+      "icon": "🥤",
+      "image": "https://images.unsplash.com/photo-1572490122747-3968b75cc699?w=300&auto=format&fit=crop&q=80",
+      "description": "Thick monster shakes, cold brew coffees, and sparkling coolers",
+      "createdAt": "2026-11-03T15:52:41.132Z",
+      "updatedAt": "2026-11-03T15:52:41.132Z"
+    }
+  ],
+  "orders": [
+    {
+      "_id": "ord-1001",
+      "customerId": "1f293bb8-3ad9-4597-8f34-7ee62406d5ce",
+      "customerName": "Aarav Sharma",
+      "customerPhone": "+91 98765 43210",
+      "restaurantId": "rest-1",
+      "restaurantName": "Gustoso Sourdough Pizza Co.",
+      "restaurantLogo": "https://images.unsplash.com/photo-1590846406792-0adc7f938f1d?w=120&auto=format&fit=crop&q=80",
+      "restaurantAddress": "12th Main, HAL 2nd Stage, Indiranagar, Bengaluru",
+      "items": [
+        {
+          "foodItemId": "food-1",
+          "name": "Margherita Burrata Speciale",
+          "price": 380,
+          "quantity": 1,
+          "image": "https://images.unsplash.com/photo-1574071318508-1cdbab80d002?w=600&auto=format&fit=crop&q=80",
+          "customizations": {
+            "size": "10-inch Regular",
+            "spiceLevel": "Mild",
+            "addOns": [
+              "Extra Truffle Oil"
+            ]
+          },
+          "itemTotal": 440
+        },
+        {
+          "foodItemId": "food-4",
+          "name": "Classic Garlic Knots with Marinara",
+          "price": 180,
+          "quantity": 1,
+          "image": "https://images.unsplash.com/photo-1541592106381-b31e9677c0e5?w=600&auto=format&fit=crop&q=80",
+          "customizations": {
+            "size": "Regular",
+            "spiceLevel": "Mild"
+          },
+          "itemTotal": 180
+        }
+      ],
+      "deliveryAddress": {
+        "title": "Home",
+        "addressLine": "Flat 402, Sunshine Residency, 100ft Road",
+        "landmark": "Opposite Metro Pillar 182",
+        "city": "Bengaluru",
+        "postalCode": "560038",
+        "lat": 12.9716,
+        "lng": 77.5946
+      },
+      "deliveryInstructions": "Please do not ring bell, leave at reception or call on arrival.",
+      "pricing": {
+        "subtotal": 620,
+        "taxes": 31,
+        "deliveryFee": 0,
+        "discount": 100,
+        "tip": 30,
+        "total": 581
+      },
+      "payment": {
+        "method": "UPI",
+        "status": "PAID",
+        "transactionId": "TXN_987112001"
+      },
+      "status": "OUT_FOR_DELIVERY",
+      "statusHistory": [
+        {
+          "status": "PLACED",
+          "timestamp": "2026-11-03T15:17:41.154Z",
+          "note": "Order placed by customer"
+        },
+        {
+          "status": "RESTAURANT_CONFIRMED",
+          "timestamp": "2026-11-03T15:20:41.154Z",
+          "note": "Kitchen accepted order"
+        },
+        {
+          "status": "PREPARING",
+          "timestamp": "2026-11-03T15:27:41.154Z",
+          "note": "Chef baking wood-fired pizza"
+        },
+        {
+          "status": "FOOD_READY",
+          "timestamp": "2026-11-03T15:37:41.154Z",
+          "note": "Packed and waiting for pickup"
+        },
+        {
+          "status": "DELIVERY_ASSIGNED",
+          "timestamp": "2026-11-03T15:38:41.154Z",
+          "note": "Assigned to Vikram Singh"
+        },
+        {
+          "status": "PICKED_UP",
+          "timestamp": "2026-11-03T15:44:41.154Z",
+          "note": "Partner picked up thermal bag"
+        },
+        {
+          "status": "OUT_FOR_DELIVERY",
+          "timestamp": "2026-11-03T15:47:41.154Z",
+          "note": "Partner is 1.5 km away"
+        }
+      ],
+      "deliveryPartnerId": "b37ee088-12c2-4110-b5e3-55561194287b",
+      "deliveryPartnerName": "Vikram Singh",
+      "deliveryPartnerPhone": "+91 98222 33445",
+      "deliveryPartnerLocation": {
+        "lat": 12.9735,
+        "lng": 77.625
+      },
+      "deliveryOtp": "7482",
+      "estimatedDeliveryTime": "2026-11-03T16:02:41.154Z",
+      "createdAt": "2026-11-03T15:52:41.155Z",
+      "updatedAt": "2026-11-03T15:52:41.155Z"
+    },
+    {
+      "_id": "ord-1002",
+      "customerId": "1f293bb8-3ad9-4597-8f34-7ee62406d5ce",
+      "customerName": "Aarav Sharma",
+      "customerPhone": "+91 98765 43210",
+      "restaurantId": "rest-2",
+      "restaurantName": "Behrouz Dum Biryani",
+      "restaurantLogo": "https://images.unsplash.com/photo-1589302168068-964664d93dc0?w=120&auto=format&fit=crop&q=80",
+      "restaurantAddress": "4th Block, 100 Feet Road, Koramangala, Bengaluru",
+      "items": [
+        {
+          "foodItemId": "food-6",
+          "name": "Royal Murgh Dum Biryani",
+          "price": 360,
+          "quantity": 2,
+          "image": "https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?w=600&auto=format&fit=crop&q=80",
+          "customizations": {
+            "size": "Regular",
+            "spiceLevel": "Medium Royal"
+          },
+          "itemTotal": 720
+        },
+        {
+          "foodItemId": "food-10",
+          "name": "Royal Angoori Gulab Jamun (4 Pcs)",
+          "price": 120,
+          "quantity": 1,
+          "image": "https://images.unsplash.com/photo-1601050690597-df0568f70950?w=600&auto=format&fit=crop&q=80",
+          "itemTotal": 120
+        }
+      ],
+      "deliveryAddress": {
+        "title": "Home",
+        "addressLine": "Flat 402, Sunshine Residency, 100ft Road",
+        "city": "Bengaluru",
+        "postalCode": "560038",
+        "lat": 12.9716,
+        "lng": 77.5946
+      },
+      "pricing": {
+        "subtotal": 840,
+        "taxes": 42,
+        "deliveryFee": 0,
+        "discount": 80,
+        "tip": 20,
+        "total": 822
+      },
+      "payment": {
+        "method": "CARD",
+        "status": "PAID",
+        "transactionId": "TXN_987112002"
+      },
+      "status": "PREPARING",
+      "statusHistory": [
+        {
+          "status": "PLACED",
+          "timestamp": "2026-11-03T15:34:41.155Z",
+          "note": "Order placed by customer"
+        },
+        {
+          "status": "RESTAURANT_CONFIRMED",
+          "timestamp": "2026-11-03T15:37:41.155Z",
+          "note": "Chef confirmed handi preparation"
+        },
+        {
+          "status": "PREPARING",
+          "timestamp": "2026-11-03T15:42:41.155Z",
+          "note": "Simmering on gentle dum"
+        }
+      ],
+      "deliveryOtp": "4190",
+      "estimatedDeliveryTime": "2026-11-03T16:17:41.155Z",
+      "createdAt": "2026-11-03T15:52:41.155Z",
+      "updatedAt": "2026-11-03T15:52:41.155Z"
+    },
+    {
+      "_id": "ord-1003",
+      "customerId": "1f293bb8-3ad9-4597-8f34-7ee62406d5ce",
+      "customerName": "Aarav Sharma",
+      "customerPhone": "+91 98765 43210",
+      "restaurantId": "rest-3",
+      "restaurantName": "Smash & Stack Burger Lab",
+      "restaurantLogo": "https://images.unsplash.com/photo-1550547660-d9450f859349?w=120&auto=format&fit=crop&q=80",
+      "restaurantAddress": "Church Street, Off MG Road, Bengaluru",
+      "items": [
+        {
+          "foodItemId": "food-11",
+          "name": "The Ultimate Double Smash Burger",
+          "price": 320,
+          "quantity": 1,
+          "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=600&auto=format&fit=crop&q=80",
+          "itemTotal": 320
+        },
+        {
+          "foodItemId": "food-14",
+          "name": "Loaded Animal-Style Fries",
+          "price": 190,
+          "quantity": 1,
+          "image": "https://images.unsplash.com/photo-1576107232684-1279f3908594?w=600&auto=format&fit=crop&q=80",
+          "itemTotal": 190
+        }
+      ],
+      "deliveryAddress": {
+        "title": "Home",
+        "addressLine": "Flat 402, Sunshine Residency, 100ft Road",
+        "city": "Bengaluru",
+        "postalCode": "560038",
+        "lat": 12.9716,
+        "lng": 77.5946
+      },
+      "pricing": {
+        "subtotal": 510,
+        "taxes": 25,
+        "deliveryFee": 0,
+        "discount": 50,
+        "tip": 20,
+        "total": 505
+      },
+      "payment": {
+        "method": "UPI",
+        "status": "PAID",
+        "transactionId": "TXN_987112003"
+      },
+      "status": "DELIVERED",
+      "statusHistory": [
+        {
+          "status": "PLACED",
+          "timestamp": "2026-11-03T13:52:41.155Z",
+          "note": "Order placed"
+        },
+        {
+          "status": "RESTAURANT_CONFIRMED",
+          "timestamp": "2026-11-03T13:57:41.155Z",
+          "note": "Confirmed"
+        },
+        {
+          "status": "PREPARING",
+          "timestamp": "2026-11-03T14:07:41.155Z",
+          "note": "Preparing"
+        },
+        {
+          "status": "FOOD_READY",
+          "timestamp": "2026-11-03T14:17:41.155Z",
+          "note": "Food Ready"
+        },
+        {
+          "status": "DELIVERY_ASSIGNED",
+          "timestamp": "2026-11-03T14:22:41.155Z",
+          "note": "Assigned"
+        },
+        {
+          "status": "PICKED_UP",
+          "timestamp": "2026-11-03T14:32:41.155Z",
+          "note": "Picked up"
+        },
+        {
+          "status": "OUT_FOR_DELIVERY",
+          "timestamp": "2026-11-03T14:42:41.155Z",
+          "note": "On the way"
+        },
+        {
+          "status": "DELIVERED",
+          "timestamp": "2026-11-03T14:57:41.155Z",
+          "note": "Delivered to customer"
+        }
+      ],
+      "deliveryPartnerId": "b37ee088-12c2-4110-b5e3-55561194287b",
+      "deliveryPartnerName": "Vikram Singh",
+      "deliveryOtp": "8912",
+      "createdAt": "2026-11-03T15:52:41.155Z",
+      "updatedAt": "2026-11-03T15:52:41.155Z"
+    }
+  ],
+  "reviews": [
+    {
+      "_id": "959e82c8-7b85-4850-af64-246d07af2213",
+      "restaurantId": "rest-1",
+      "userId": "1f293bb8-3ad9-4597-8f34-7ee62406d5ce",
+      "userName": "Aarav Sharma",
+      "userAvatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=200&auto=format&fit=crop&q=80",
+      "rating": 5,
+      "comment": "Hands down the best sourdough pizza in town! The burrata was fresh and creamy, and crust was perfectly blistered.",
+      "verifiedPurchase": true,
+      "helpfulCount": 24,
+      "createdAt": "2026-11-01T15:52:41.155Z",
+      "updatedAt": "2026-11-03T15:52:41.155Z"
+    },
+    {
+      "_id": "7d385aad-8188-40d4-8458-8b868cc5d3d8",
+      "restaurantId": "rest-1",
+      "userId": "usr-demo-2",
+      "userName": "Priya Nambiar",
+      "userAvatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=120&auto=format&fit=crop&q=80",
+      "rating": 5,
+      "comment": "Diavola with hot honey is pure magic. Delivery arrived piping hot in 25 minutes!",
+      "verifiedPurchase": true,
+      "helpfulCount": 18,
+      "createdAt": "2026-10-29T15:52:41.155Z",
+      "updatedAt": "2026-11-03T15:52:41.155Z"
+    }
+  ],
+  "coupons": [
+    {
+      "_id": "5eab0e00-b486-41e5-9fbb-e1f015ebd5e9",
+      "code": "FIRST50",
+      "discountType": "percentage",
+      "discountValue": 50,
+      "minOrder": 199,
+      "maxDiscount": 150,
+      "validUntil": "2027-12-31T23:59:59Z",
+      "usageCount": 420,
+      "active": true,
+      "createdAt": "2026-11-03T15:52:41.153Z",
+      "updatedAt": "2026-11-03T15:52:41.153Z"
+    },
+    {
+      "_id": "24dc19cb-b112-4e0e-aa9d-a2ca550f4c10",
+      "code": "CRAVEFEST",
+      "discountType": "percentage",
+      "discountValue": 20,
+      "minOrder": 299,
+      "maxDiscount": 100,
+      "validUntil": "2027-12-31T23:59:59Z",
+      "usageCount": 880,
+      "active": true,
+      "createdAt": "2026-11-03T15:52:41.153Z",
+      "updatedAt": "2026-11-03T15:52:41.153Z"
+    },
+    {
+      "_id": "bfb07adc-6ec6-461e-8f31-eb066ee4654f",
+      "code": "HUNGRY20",
+      "discountType": "percentage",
+      "discountValue": 20,
+      "minOrder": 250,
+      "maxDiscount": 80,
+      "validUntil": "2027-12-31T23:59:59Z",
+      "usageCount": 650,
+      "active": true,
+      "createdAt": "2026-11-03T15:52:41.153Z",
+      "updatedAt": "2026-11-03T15:52:41.153Z"
+    },
+    {
+      "_id": "dfbf7361-8172-4a99-a642-edb78b7e533c",
+      "code": "FLAT100",
+      "discountType": "fixed",
+      "discountValue": 100,
+      "minOrder": 499,
+      "maxDiscount": 100,
+      "validUntil": "2027-12-31T23:59:59Z",
+      "usageCount": 310,
+      "active": true,
+      "createdAt": "2026-11-03T15:52:41.154Z",
+      "updatedAt": "2026-11-03T15:52:41.154Z"
+    }
+  ],
+  "inventory": [
+    {
+      "_id": "42ffb314-cf41-4865-ab0f-12d99e9920c7",
+      "restaurantId": "rest-1",
+      "ingredientName": "San Marzano Tomato Pulp",
+      "quantity": 45,
+      "unit": "kg",
+      "lowStockThreshold": 10,
+      "autoDisableDishIds": [
+        "food-1",
+        "food-2"
+      ],
+      "lastUpdated": "2026-11-03T15:52:41.152Z",
+      "createdAt": "2026-11-03T15:52:41.152Z",
+      "updatedAt": "2026-11-03T15:52:41.152Z"
+    },
+    {
+      "_id": "2ec17742-70cf-453f-9853-252e2b5fa023",
+      "restaurantId": "rest-1",
+      "ingredientName": "Fior Di Latte Mozzarella",
+      "quantity": 28,
+      "unit": "kg",
+      "lowStockThreshold": 8,
+      "autoDisableDishIds": [
+        "food-1",
+        "food-2",
+        "food-3"
+      ],
+      "lastUpdated": "2026-11-03T15:52:41.152Z",
+      "createdAt": "2026-11-03T15:52:41.152Z",
+      "updatedAt": "2026-11-03T15:52:41.152Z"
+    },
+    {
+      "_id": "dbe31c9b-c074-47d0-9556-1fcb70c1fa3b",
+      "restaurantId": "rest-1",
+      "ingredientName": "Artisanal Pepperoni",
+      "quantity": 18,
+      "unit": "kg",
+      "lowStockThreshold": 5,
+      "autoDisableDishIds": [
+        "food-2"
+      ],
+      "lastUpdated": "2026-11-03T15:52:41.152Z",
+      "createdAt": "2026-11-03T15:52:41.152Z",
+      "updatedAt": "2026-11-03T15:52:41.152Z"
+    },
+    {
+      "_id": "ce069a7b-e865-47ce-90ab-a6e185daa745",
+      "restaurantId": "rest-1",
+      "ingredientName": "Italian White Truffle Oil",
+      "quantity": 4,
+      "unit": "liters",
+      "lowStockThreshold": 2,
+      "autoDisableDishIds": [
+        "food-3"
+      ],
+      "lastUpdated": "2026-11-03T15:52:41.152Z",
+      "createdAt": "2026-11-03T15:52:41.153Z",
+      "updatedAt": "2026-11-03T15:52:41.153Z"
+    },
+    {
+      "_id": "8fb9fe9b-e5b2-4777-9b00-105168debe74",
+      "restaurantId": "rest-1",
+      "ingredientName": "Italian Tipo 00 Flour",
+      "quantity": 120,
+      "unit": "kg",
+      "lowStockThreshold": 25,
+      "autoDisableDishIds": [],
+      "lastUpdated": "2026-11-03T15:52:41.152Z",
+      "createdAt": "2026-11-03T15:52:41.153Z",
+      "updatedAt": "2026-11-03T15:52:41.153Z"
+    }
+  ],
+  "supportTickets": [],
+  "foodPolls": [
+    {
+      "_id": "de0ae78e-4ed3-4c92-9b76-5d108a3f261f",
+      "title": "What should we feast on for Friday Night Movie Marathon? 🎬",
+      "description": "Vote for your favorite team bite below!",
+      "createdBy": "1f293bb8-3ad9-4597-8f34-7ee62406d5ce",
+      "createdByName": "Aarav Sharma",
+      "options": [
+        {
+          "id": "opt_1",
+          "text": "Wood-Fired Sourdough Pizzas 🍕",
+          "votes": [
+            "usr-1",
+            "usr-2",
+            "usr-3"
+          ]
+        },
+        {
+          "id": "opt_2",
+          "text": "Double Smashed Burgers & Shakes 🍔",
+          "votes": [
+            "usr-4",
+            "usr-5"
+          ]
+        },
+        {
+          "id": "opt_3",
+          "text": "Royal Handi Mutton Biryani 🍲",
+          "votes": [
+            "usr-6",
+            "usr-7",
+            "usr-8",
+            "usr-9"
+          ]
+        },
+        {
+          "id": "opt_4",
+          "text": "Spicy Dan Dan Asian Noodles 🥟",
+          "votes": [
+            "usr-10"
+          ]
+        }
+      ],
+      "expiresAt": "2026-11-05T15:52:41.156Z",
+      "active": true,
+      "createdAt": "2026-11-03T15:52:41.156Z",
+      "updatedAt": "2026-11-03T15:52:41.156Z"
+    }
+  ],
+  "groupOrders": [],
+  "foodPassports": [],
+  "notifications": [],
+  "promotions": [
+    {
+      "_id": "bcbccba8-b9e6-4a6a-986f-27881f2357e3",
+      "restaurantId": "rest-1",
+      "title": "Weekend Pizza Fiesta",
+      "description": "Get flat 20% off on all large sourdough pizzas every Friday to Sunday!",
+      "discountPercentage": 20,
+      "code": "CRAVEFEST",
+      "active": true,
+      "bannerImage": "https://images.unsplash.com/photo-1513104890138-7c749659a591?w=800&auto=format&fit=crop&q=80",
+      "createdAt": "2026-11-03T15:52:41.154Z",
+      "updatedAt": "2026-11-03T15:52:41.154Z"
+    }
+  ]
+}

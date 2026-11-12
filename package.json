@@ -1,0 +1,22 @@
+{
+  "name": "cravex-platform",
+  "version": "2.0.0",
+  "description": "CraveX - Next-Generation Food Ordering & Restaurant Management Platform",
+  "scripts": {
+    "start": "bash ./start.sh",
+    "dev": "bash ./start.sh",
+    "server": "cd server && npm start",
+    "client": "cd client && npm run dev",
+    "seed": "cd server && npm run seed",
+    "build": "cd client && npm run build"
+  },
+  "keywords": [
+    "food-ordering",
+    "socketio",
+    "state-machine",
+    "react",
+    "restaurant-management"
+  ],
+  "author": "CraveX Engineering",
+  "license": "MIT"
+}
