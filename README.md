@@ -1,5 +1,7 @@
 # 🍔 CraveX – Next-Generation AI Food Ordering & Restaurant Management Ecosystem
 
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/MBindhu07/cravex)
+
 > **"Your Cravings. Our Command."**  
 > A production-grade, AI-powered food delivery and restaurant management ecosystem connecting Customers, Restaurant Owners, Delivery Partners, and Platform Administrators through one intelligent, real-time platform.
 
