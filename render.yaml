@@ -1,0 +1,15 @@
+services:
+  - type: web
+    name: cravex-backend
+    env: node
+    rootDir: server
+    buildCommand: npm install
+    startCommand: npm start
+    plan: free
+    envVars:
+      - key: PORT
+        value: 5001
+      - key: JWT_SECRET
+        value: cravex_super_secret_jwt_key_2026
+      - key: CLIENT_URL
+        value: "*"

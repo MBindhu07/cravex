@@ -111,3 +111,34 @@ npm run seed
 8. Switch to **Delivery Partner** (`/delivery/dashboard`). Click **"1. Order Picked Up"** and **"2. Start Transit"**.
 9. Click **"3. Verify Customer OTP & Complete Delivery"**, enter the customer's 4-digit code.
 10. Return to the customer window to see the confetti celebration, +CravePoints awarded, and completed status!
+
+---
+
+## 🌐 Production Deployment Guide
+
+### A. Deploy Frontend on Vercel
+1. Go to [Vercel Dashboard](https://vercel.com/new) and click **"Add New Project"**.
+2. Select and import your GitHub repository: `MBindhu07/cravex`.
+3. Vercel automatically detects the included `vercel.json`:
+   - **Framework Preset**: Vite
+   - **Build Command**: `cd client && npm install && npm run build`
+   - **Output Directory**: `client/dist`
+   *(Or if setting "Root Directory" to `client`, the build command is `npm run build` and output directory is `dist`).*
+4. *(Optional)* In **Environment Variables**, add:
+   - `VITE_API_URL` = `https://your-cravex-backend.onrender.com/api`
+   - `VITE_SOCKET_URL` = `https://your-cravex-backend.onrender.com`
+5. Click **Deploy**. Your CraveX app will be live at `https://cravex.vercel.app`!
+
+### B. Deploy Backend on Render (Free Web Service)
+1. Go to [Render Dashboard](https://dashboard.render.com/) and click **"New Web Service"**.
+2. Connect your repository: `MBindhu07/cravex`.
+3. Configure the service:
+   - **Root Directory**: `server`
+   - **Build Command**: `npm install`
+   - **Start Command**: `npm start`
+4. In **Environment Variables**:
+   - `PORT`: `5001`
+   - `JWT_SECRET`: `cravex_production_secret_key_2026`
+   - `CLIENT_URL`: `https://your-vercel-domain.vercel.app`
+5. Click **Create Web Service**. Render provides a live URL (e.g., `https://cravex-backend.onrender.com`).
+6. Copy this URL and add it as `VITE_API_URL` on your Vercel project settings.
